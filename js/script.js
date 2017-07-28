@@ -138,10 +138,10 @@ var waypoints = $hero.waypoint(function(direction) {
 var waypoints = $work.waypoint(function(direction) {
     if (direction === 'down') {
     $('.section-work').addClass('fixed');
-    $('#particles-js').hide();
+    $('#particles-js').fadeOut();
   } else if (direction === 'up') {
     $('.section-work').removeClass('fixed');
-    $('#particles-js').show();
+    $('#particles-js').fadeIn();
   }
 }, {
   offset: 40
@@ -150,11 +150,11 @@ var waypoints = $work.waypoint(function(direction) {
 var waypoints = $principles.waypoint(function(direction) {
   if (direction === 'down') {
     $('.section-work').removeClass('fixed');
-    $('#particles-js').show();
+    $('#particles-js').fadeIn();
     $('#work .section-header').addClass('bottom-offset');
   } else if (direction === 'up') {
     $('.section-work').addClass('fixed');
-    $('#particles-js').hide();
+    $('#particles-js').fadeOut();
     $('#work .section-header').removeClass('bottom-offset');
   }
 }, {
