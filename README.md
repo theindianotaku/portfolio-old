@@ -5,4 +5,4 @@ I'm a front end developer and a UI/UX Designer dedicated to work with the aim of
 This is my personal website.
 For any queries please contact me at debashishzero@gmail.com
 
-Thank you.
+Thank you!
