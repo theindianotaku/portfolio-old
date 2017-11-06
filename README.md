@@ -9,8 +9,8 @@ Thank you!
 
 ## TODO
 * Static files
-  * Landing Page
-  * Project Pages
+  * ~~Landing Page~~
+  * ~~Project Pages~~
   * Project Visual Assets
 * Implement React
   * Create routes
