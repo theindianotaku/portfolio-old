@@ -9,11 +9,11 @@ Thank you!
 
 ## TODO
 * Static files
-..* Landing Page
-..* Project Pages
-..* Project Visual Assets
+  * Landing Page
+  * Project Pages
+  * Project Visual Assets
 * Implement React
-..* Create routes
-..* Create Components
+  * Create routes
+  * Create Components
 
 Will add more if I can think of any improvement.
