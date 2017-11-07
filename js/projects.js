@@ -21,18 +21,36 @@ var $close = $('#modal-close-trigger');
 
 // When the user clicks on the button, open the modal
 $btn.click(function () {
-    // var $trigger = $(this);
-    // var $modalId = $trigger.data('target')+"-modal";
-    // console.log($modalId);
     $('main').hide();
-    $('.modal-overlay').show();
+    $('#feature-modal').show();
 })
 
 // When the user clicks on <span> (x), close the modal
 $close.click(function ($this) {
-    $('.modal-overlay').hide();
+    $('#feature-modal').hide();
     $('main').show();
 })
+
+var $contact_btn = $('#contact-trigger');
+var $contact_close = $('#contact-close-trigger');
+
+$contact_btn.click(function () {
+    $('main').hide();
+    $('#contact-modal').show();
+})
+
+$contact_close.click(function ($this) {
+    $('#contact-modal').hide();
+    $('main').show();
+})
+
+document.addEventListener('keyup', function(e) {
+    if (e.keyCode == 27) {
+      $('#contact-modal').hide();
+      $('#feature-modal').hide();
+      $('main').show();
+    }
+});
 
 // end
 });
