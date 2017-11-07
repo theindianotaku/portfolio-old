@@ -440,8 +440,24 @@ a.strike-through.button {
 
 /* principles */
 
+.green {
+  color: #B8E986;
+}
+
+.orange {
+  color: #FA6900;
+}
+
 .red {
 	color: #f44336;
+}
+
+.yellow {
+  color: #F9D423;
+}
+
+.blue {
+  color: #69D2E7;
 }
 
 .col-header > .material-icons {
