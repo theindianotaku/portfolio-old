@@ -9,9 +9,11 @@ Thank you!
 
 ## TODO
 * Static files
-  * ~~Landing Page~~
-  * ~~Project Pages~~
-  * Project Visual Assets
+  * ~~Landing page layout~~
+  * ~~Project page layouts~~
+  * Individual project details
+  * Project visual Assets
+  * Proofreading content
 * Implement React
   * Create routes
   * Create Components
