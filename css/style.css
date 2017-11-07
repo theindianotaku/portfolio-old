@@ -143,6 +143,24 @@ h2 + p.label, h3 + p.label {
     float: right;
 }
 
+.hidden-below-md {
+  display: none;
+}
+
+.visible-below-md {
+  display: block;
+}
+
+@media (min-width: 992px) {
+  .hidden-below-md {
+    display: initial;
+  }
+
+  .visible-below-md {
+    display: none;
+  }
+}
+
 .label {
     color: #9394A7;
     margin: 5px 0;
@@ -168,6 +186,17 @@ h2 + p.label, h3 + p.label {
 	height  : 6px;
 	width   : 60px;
 	border-bottom: 6px solid #7ad71f;
+}
+
+.section-banner {
+  height: 80px;
+}
+
+.section-banner .section-label:before {
+  right: unset;
+  left: 15px;
+  top: 30px;
+  bottom: unset;
 }
 
 .nav-link, .label, .section-label {
@@ -271,7 +300,15 @@ a.strike-through.button {
 
 /* main */
 
-main {
+.hero-image {
+  position: absolute;
+}
+
+.hero-image__img {
+  height: 450px;
+  position: absolute;
+  right: 0;
+  z-index: -1;
 }
 
 .fixed-to-background {
@@ -357,7 +394,7 @@ main {
     padding: 35px 25px;
     border-radius: 0 0 4px 4px;
     z-index: 1;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.25s ease-in-out;
 }
 
 #work .label span, .case-study .label span {
@@ -368,7 +405,7 @@ main {
 #work .card-desc-panel {
     color: #4E5067;
     opacity: 0;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.25s ease-in-out;
 }
 
 #work .card i.material-icons {
@@ -440,6 +477,15 @@ main {
 
 /* footer */
 
+li.icon.myanimelist:before {
+  content: "MAL";
+  font-family: "Open Sans";
+  font-weight: bolder;
+  font-size: 11px;
+  color: black;
+  border-radius: 0;
+}
+
 .icon {
     text-decoration: none;
     position: relative;
@@ -458,7 +504,7 @@ main {
 footer {
     position: relative;
     z-index: 1;
-    height: 1000px;
+    padding-top: 80px;
 }
 
 #contact .height-wrapper {
@@ -563,6 +609,10 @@ ul.contact-icons > li:before {
     border-radius: 4px;
 }
 
+.case-study .nav-right {
+  width: 538px;
+}
+
 .case-study p {
     margin: 0;
 }
@@ -591,7 +641,6 @@ ul.contact-icons > li:before {
     font-size: 18px;
     line-height: 1.7;
 }
-
 
 .case-details p {
     color: #7dd724;
@@ -731,8 +780,8 @@ ul.contact-icons > li:before {
         padding-right: 25px;
     }
 
-    .nav-right {
-        width: 180px;
+    .case-study .nav-right {
+        width: 280px;
     }
 
     .case-study li {
