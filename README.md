@@ -8,13 +8,13 @@ You can contact me at [debashishzero@gmail.com](mailto:debashishzero@gmail.com).
 Thank you!
 
 ## TODO
-* Static files
+* Static files v1
   * ~~Landing page layout~~
   * ~~Project page layouts~~
   * Individual project details
   * Project visual Assets
   * Proofreading content
-* Implement React
+* Implement React v2
   * Create routes
   * Create Components
 
