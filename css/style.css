@@ -378,7 +378,7 @@ a.strike-through.button {
 
 #work .card-image {
   background-size: cover;
-  background-position: center center;
+  background-position: left center;
   position: relative;
   width: 100%;
   height: 385px;
