@@ -17,14 +17,14 @@ body {
   background-color: #ffffff;
 }
 
-#bottom {
-  height: 20px;
-  width: 100%;
-}
-
 body, p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
+}
+
+.m-a {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1, h2, h3, h4, h5, h6, a {
@@ -134,6 +134,10 @@ h2+p.label, h3+p.label {
 
 .p-b-xs {
   padding-bottom: 10px;
+}
+
+.no-underline, .no-underline:hover {
+  text-decoration: none;
 }
 
 .one-vh {
@@ -338,7 +342,7 @@ a.strike-through.button {
 
 /* works */
 
-#work, #principles, #myself, #footer {
+#work, #principles, #myself, .footer {
   padding-top: 100px;
 }
 
@@ -493,7 +497,7 @@ a.strike-through.button {
   text-transform: uppercase;
 }
 
-/* footer */
+/* contact */
 
 .important-note {
   position: absolute;
@@ -528,10 +532,10 @@ li.icon.myanimelist:before {
   text-transform: none !important;
 }
 
-footer {
+.footer {
+  padding-top: 80px;
   position: relative;
   z-index: 1;
-  padding-top: 80px;
 }
 
 #contact .height-wrapper {
@@ -588,6 +592,35 @@ ul.contact-icons>li:before {
 
 .hidden {
   display: none;
+}
+
+/* footer */
+
+footer {
+  background-color: #fff;
+  border-top: 1px solid #F2F3F6;
+  height: 41px;
+  margin-top: 100px;
+  width: 100%;
+}
+
+footer .container {
+    height: 40px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.footer--text {
+    line-height: 25px;
+    font-size: 16px;
+}
+
+footer img {
+    line-height: 40px;
+    vertical-align: middle;
+    position: relative;
+    bottom: 2px;
+    margin: 0 10px;
 }
 
 /*  project-page  */
