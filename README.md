@@ -14,6 +14,7 @@ Thank you!
   * Individual project details
   * Project visual Assets
   * Proofreading content
+  * Fix responsiveness issues for mobile devices
 * Implement React v2
   * Create routes
   * Create Components
