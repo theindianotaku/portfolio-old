@@ -837,7 +837,7 @@ footer img {
     padding-left: 25px;
     padding-right: 25px;
   }
-  .case-study .nav-right {
+  .header .nav-right, .case-study .nav-right {
     width: 280px;
   }
   .case-study li {

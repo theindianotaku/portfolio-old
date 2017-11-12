@@ -27,7 +27,7 @@
 <body>
 	<!-- js -->
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	<nav id="header">
+	<nav id="header" class="header">
 		<div class="container">
 			<div class="nav-left">
 				<div class="logo-wrapper valign-wrapper center-align">
@@ -36,11 +36,19 @@
 				</a>
 				</div>
 			</div>
-			<div class="nav-right">
+			<div class="nav-right hidden-on-mobile">
 				<div class="valign-wrapper">
 					<a class="strike-through" href="#work">projects</a>
 					<a class="strike-through" href="#principles">workflow</a>
 					<a class="strike-through" href="#myself">about</a>
+					<a class="strike-through" href="#contact">contact</a>
+				</div>
+			</div>
+			<div class="nav-right hidden-on-large">
+				<div class="valign-wrapper">
+					<a class="strike-through" href="#work"><i class="material-icons float-right">dashboard</i></a>
+					<a class="strike-through" href="#principles"><i class="material-icons float-right">bubble_chart</i></a>
+					<a class="strike-through" href="#myself"><i class="material-icons float-right">face</i></a>
 					<a class="strike-through" href="#contact">contact</a>
 				</div>
 			</div>
