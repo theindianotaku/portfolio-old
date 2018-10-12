@@ -3,7 +3,7 @@ Hello, I'm Debashish.
 I'm a front end developer and a UI/UX Designer dedicated to work with the aim of making products meaningful.
 
 This is my personal website.
-You can contact me at [debashishzero@gmail.com](mailto:debashishzero@gmail.com).
+You can contact me @ [debashishzero@gmail.com](mailto:debashishzero@gmail.com).
 
 Thank you!
 
